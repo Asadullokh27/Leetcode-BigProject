@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Leetcode-Domain\Leetcode.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Usecases\LeetcodeProblem\Commands\" />
+    <Folder Include="Usecases\LeetcodeProblem\Handlers\CommandHandlers\" />
+    <Folder Include="Usecases\LeetcodeProblem\Handlers\QueryHandlers\" />
+    <Folder Include="Usecases\LeetcodeProblem\Queries\" />
+    <Folder Include="Usecases\LeetcodeSubmission\Commands\" />
+    <Folder Include="Usecases\LeetcodeSubmission\Handlers\CommandHandlers\" />
+    <Folder Include="Usecases\LeetcodeSubmission\Handlers\QueryHandlers\" />
+    <Folder Include="Usecases\LeetcodeSubmission\Queries\" />
+    <Folder Include="Usecases\LeetcodeTest\Commands\" />
+    <Folder Include="Usecases\LeetcodeTest\Handlers\CommandHandlers\" />
+    <Folder Include="Usecases\LeetcodeTest\Handlers\QueryHandlers\" />
+    <Folder Include="Usecases\LeetcodeTest\Queries\" />
+    <Folder Include="Usecases\LeetcodeUser\Commands\" />
+    <Folder Include="Usecases\LeetcodeUser\Handlers\CommandHandlers\" />
+    <Folder Include="Usecases\LeetcodeUser\Handlers\QueryHandlers\" />
+    <Folder Include="Usecases\LeetcodeUser\Queries\" />
+  </ItemGroup>
+
+</Project>
